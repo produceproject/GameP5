@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quizly</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wordle.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="wordle.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <h1 id="title">Nama Kota</h1>
+        <p>Tebak nama kota di Pulau Jawa</p>
+        <hr>
+    </div>
+    <div class="margin">
+        <div id="board"></div>
+    </div>
+    <br>
+    <h1 id="answer"></h1>
+
+</body>
+
+
+</html>
+
+<style>
+    .wide-modal {
+        width: 800px;
+        max-width: none
+    }
+
+    @media (min-width: 768px) {
+        .wide-modal {
+            width: 60%;
+        }
+    }
+
+    @media (max-width: 600px) {
+
+        .wide-modal {
+            width: 450px;
+        }
+    }
+</style>
